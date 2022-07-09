@@ -1,0 +1,16 @@
+.main-menu{
+    margin-bottom: 0;
+    li{
+        font-size: 0.75rem;
+        list-style: none;
+        display: inline;
+        margin-right: 1rem;
+        a{
+            color: #000000;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
